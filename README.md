@@ -30,6 +30,21 @@ Simulation of a PV system in GNU Octave, built around the datasheet of a real pa
 | $V_{oc}$ at 75 °C | about 27 V | 27.33 V |
 | P&O at 0.1 V step | | converges in about 100 iterations, oscillates within about 0.04 W of $P_{max}$ |
 
+### Phase 2: Boost Converter with PI Control
+
+- Averaged boost converter model, stepping a 10-module PV string (263 V) up to a 400 V DC link.
+- Inductor and capacitor sized from ripple specifications.
+- PI voltage control, with controller gains tuned and checked for stability.
+
+**Key results**
+
+| Quantity | Design | Simulated |
+|---|---|---|
+| $V_{out}$ | 400 V | 400.00 V |
+| Duty cycle $D$ | 0.3425 | 0.3425 |
+| $i_L$ | 7.6 A | 7.60 A |
+| Stable gain | | $K_p = 0.0005$, $K_i = 0.1$ |
+
 ## Repository structure
 
 ```

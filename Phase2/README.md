@@ -108,6 +108,8 @@ The graphs plotted (at $K_i = 0.1$ and $K_p = 0.0005$) are:
 |:---|:---|
 | `boost_pid.m` | PI-controlled boost converter with early- and late-stage ripple stability checks |
 
+[← Back to main README](../README.md)
+
 
 
 
