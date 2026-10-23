@@ -11,7 +11,7 @@ Simulation of a PV system in GNU Octave, built around the datasheet of a real pa
 | Phase | Topic | Status | README |
 |---|---|---|---|
 | 1 | PV module modelling and P&O MPPT | Completed | [Phase 1](Phase1/README.md) |
-| 2 | DC-DC converter | Completed | [Phase 2](Phase2/README.md) |
+| 2 | Boost Converter with Closed-Loop Voltage Control | Completed | [Phase 2](Phase2/README.md) |
 
 ## Completed
 

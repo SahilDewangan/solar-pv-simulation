@@ -1,4 +1,4 @@
-# Phase 2: Boost Converter with PI Control 
+# Phase 2: Boost Converter with Closed-Loop Voltage Control
 ## 1. Objective
 This is an Octave based simulation of a DC-DC boost converter, with its output voltage regulated by a PI controller. The converter steps up the voltage from a string of 10 PV modules (~263V) up to 400V DC link (which can be later converted to 230V RMS AC).
 
@@ -89,7 +89,7 @@ At $K_i = 0.1$:
 |:---:|:---|
 | 0.002 | Sustained oscillations with approximately 130 V ripple |
 | 0.001 | Sustained oscillations with approximately 130 V ripple |
-| **0.0005** | **Stable.** Voltage decreases from 0.1789 V (early) to below 0.0001 V (steady state) |
+| **0.0005** | **Stable.** Peak-to-peak $V_{out}$ variation of 0.1789 V (early) decreases to 0.0001 V (steady state) |
 
 The graphs plotted (at $K_i = 0.1$ and $K_p = 0.0005$) are:
 
