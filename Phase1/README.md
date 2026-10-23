@@ -28,6 +28,7 @@ Mathematically, it is defined by the equation:
 $$
 I = I_{ph} - I_0\left[\exp\left(\frac{V + I R_s}{n V_t}\right) - 1\right] - \frac{V + I R_s}{R_{sh}}
 $$
+
 where
 
 | Symbol | Meaning |
