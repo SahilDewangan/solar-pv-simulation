@@ -30,11 +30,13 @@ $$
 **Under Steady State**
 
 The output Voltage is given by:
+
 $$
 {\frac{V_{out}}{V_{in}}=\frac{1}{1-D}}
 $$
 
 The average inductor current is given by:
+
 $$
 {i_L=\frac{V_{out}}{(1-D)R}}
 $$
@@ -42,11 +44,13 @@ $$
 **Control Law**
 
 The error is defined as:
+
 $$
 e = V_{ref} - V_{out}
 $$
 
 The duty cycle is:
+
 $$
 D = K_p \cdot e + K_i \int e\cdot dt, \qquad 0 \leq D \leq 0.9
 $$

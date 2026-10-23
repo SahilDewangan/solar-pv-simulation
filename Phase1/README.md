@@ -24,6 +24,7 @@ Mathematical Modelling of a Photovoltaic Module and Perturb & Observe MPPT imple
 ### 3.1 Single Diode Model
 A PV cell is modelled as a current source in parallel with a diode and a shunt resistance, with a series resistance in the output path.
 Mathematically, it is defined by the equation:
+
 $$
 I = I_{ph} - I_0\left[\exp\left(\frac{V + I R_s}{n V_t}\right) - 1\right] - \frac{V + I R_s}{R_{sh}}
 $$
@@ -76,6 +77,7 @@ For a **fixed** voltage the diode equation has one unknown ($I$), which, the `fz
 
 ### 3.4 Irradiance and temperature correction
 But since we are plotting against different values of irradiance and temperature (other than STC), we need to use the following for correction:
+
 $$
 I_{ph}(G,T) = I_{ph,STC}\,\frac{G}{G_{STC}} + K_i\,(T - T_{STC})
 $$
